@@ -51,8 +51,9 @@ Metadata is used to:
    -pip install pytz
    
 4. Start the server by using the following command
+   
    -python server.py
-5. Start the client by using the following command
+6. Start the client by using the following command
    
    -python client.py
    
