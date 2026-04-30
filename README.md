@@ -43,10 +43,19 @@ Metadata is used to:
 ## How to Run
 1. Clone the repo
 2. Install dependencies
-3. Add database connection settings
-4. Start the server
-5. Start the client
-6. Enter one of the supported queries
+   -python --version ## to ensure you have python installed on the system
+   -pip install psycopg2-binary
+   -pip install pytz
+3. Start the server by using the following command
+   -python server.py
+4. Start the client by using the following command
+   -python client.py
+   You will then be prompted to enter the IP address, enter the server's IP, in our case it is
+   >34.72.118.154
+5. Enter one of the supported queries
+   1. What is the average moisture inside our kitchen fridges in the past hours, week and month?
+   2. What is the average water consumption per cycle across our smart dishwashers in the past hour, week and month?
+   3. Which house consumed more electricity in the past 24 hours, and by how much?
 
 ## Notes
 - Results should be formatted in PST
