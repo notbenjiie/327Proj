@@ -39,6 +39,7 @@ Metadata is used to:
 - identify device and sensor type
 - separate local vs shared data
 - preserve ownership during query processing
+- more in depth in the report
 
 ## How to Run
 note: make sure you have the RDP files from VM instances of both server and client downloaded and opened. Those can be found in config.md. 
