@@ -42,7 +42,9 @@ Metadata is used to:
 
 ## How to Run
 1. Clone the repo
-2. Install dependencies
+
+   git clone https://github.com/notbenjiie/327Proj.git
+3. Install dependencies
    
    -python --version ## to ensure you have python installed on the system
 
