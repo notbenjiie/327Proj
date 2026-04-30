@@ -41,12 +41,14 @@ Metadata is used to:
 - preserve ownership during query processing
 
 ## How to Run
-1. Clone the repo
+note: make sure you have the RDP files from VM instances of both server and client downloaded and opened. Those can be found in config.md. 
+
+1. Clone the repo in both server and client
 
    git clone https://github.com/notbenjiie/327Proj.git
-3. Install dependencies
+3. Install dependencies on both
    
-   -python --version ## to ensure you have python installed on the system
+   -python --version ## to ensure you have python installed on the system, if not install it. 
 
    -pip install psycopg2-binary
 
