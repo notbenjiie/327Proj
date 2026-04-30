@@ -45,8 +45,11 @@ Metadata is used to:
 2. Install dependencies
    
    -python --version ## to ensure you have python installed on the system
+
    -pip install psycopg2-binary
+
    -pip install pytz
+   
 4. Start the server by using the following command
    -python server.py
 5. Start the client by using the following command
