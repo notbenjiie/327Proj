@@ -48,7 +48,7 @@ def fetch_local_db_data(device_type, hours):
         conn = psycopg2.connect(DATABASE_URL)
         cur = conn.cursor(cursor_factory=RealDictCursor)
         
-        # SQL query built as a standard string to avoid GitHub highlighting bugs
+        # SQL query built as a standard string 
         query = "SELECT payload, time FROM \"" + TABLE_NAME + "\" WHERE time >= NOW() - INTERVAL '%s hours'"
         
         cur.execute(query, (hours,))
